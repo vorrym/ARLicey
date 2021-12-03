@@ -15,7 +15,7 @@ npm run dev
 npm run build
 ```
 
-# Live Deployment
+# Live Deployment (For Mobile)
 https://brandonbartram98.github.io/Zappar-ThreeJS-DepthPortal/
 
 # Scan this marker
