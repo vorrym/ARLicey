@@ -15,5 +15,8 @@ npm run dev
 npm run build
 ```
 
+# Live Deployment
+https://brandonbartram98.github.io/Zappar-ThreeJS-DepthPortal/
+
 # Scan this marker
 ![alt text](https://github.com/BrandonBartram98/Zappar-ThreeJS-DepthPortal/blob/main/static/Markers/marker2.jpg?raw=true)
