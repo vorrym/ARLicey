@@ -2,7 +2,7 @@
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+Run the following commands:
 
 ``` bash
 # Install dependencies
@@ -14,3 +14,9 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+
+# Live Deployment (For Mobile)
+https://brandonbartram98.github.io/Zappar-ThreeJS-DepthPortal/
+
+# Scan this marker
+![alt text](https://github.com/BrandonBartram98/Zappar-ThreeJS-DepthPortal/blob/main/static/Markers/marker2.jpg?raw=true)
