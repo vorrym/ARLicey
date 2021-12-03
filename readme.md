@@ -14,4 +14,6 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+
+# Show this marker
 ![alt text](https://github.com/BrandonBartram98/Zappar-ThreeJS-DepthPortal/blob/main/static/Markers/marker2.jpg?raw=true)
