@@ -169,6 +169,21 @@ trackerGroup.add(group)
 group.scale.set(0.2, 0.2, 0.2)
 trackerGroup.position.z = -1
 
+imageTracker.onNewAnchor.bind(anchor => {
+    console.log("New anchor has appeared:", anchor.id);
+    trackerGroup.visible = false
+});
+
+tracker.onNotVisible.bind(anchor => {
+    console.log("Anchor is not visible:", anchor.id);
+    trackerGroup.visible = false
+});
+
+tracker.onVisible.bind(anchor => {
+    console.log("Anchor is visible:", anchor.id);
+    trackerGroup.visible = true
+});
+
 function tick() {
 
     const elapsedTime = clock.getElapsedTime()
