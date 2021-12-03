@@ -169,9 +169,10 @@ trackerGroup.add(group)
 group.scale.set(0.2, 0.2, 0.2)
 trackerGroup.position.z = -1
 
+trackerGroup.visible = false;
+
 tracker.onNewAnchor.bind(anchor => {
     console.log("New anchor has appeared:", anchor.id);
-    trackerGroup.visible = false
 });
 
 tracker.onNotVisible.bind(anchor => {
