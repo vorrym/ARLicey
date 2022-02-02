@@ -1,5 +1,7 @@
 # Zappar + ThreeJS AR Portal
 
+AR portal effect using ThreeJS renderOrder and colourWrite
+
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
 Run the following commands:
