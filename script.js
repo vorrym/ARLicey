@@ -1,4 +1,4 @@
-import './style.css'
+import 'style.css'
 import * as THREE from 'three'
 import * as ZapparThree from "@zappar/zappar-threejs";
 import { BoxGeometry, SphereGeometry } from 'three';
